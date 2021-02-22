@@ -24,7 +24,7 @@ class Navs extends Component {
   	render(){
 
   		const{ isExpanded } = this.state;
-		const link = ['/', 'About-the-Author', 'About-The-Book', 'Contact'];
+		const link = ['/', 'About-the-Author', 'Books', 'Contact'];
 
 		return (
 			<div className={style.Navigation}>
@@ -55,7 +55,7 @@ class Navs extends Component {
 											<Link to="/about-the-author" activeClassName={style.active}>About the Author</Link>
 										</li>
 										<li>
-											<Link to="/about-the-book" activeClassName={style.active}>About the Book</Link>
+											<Link to="/books" activeClassName={style.active}>Books</Link>
 										</li>
 										<li>
 											<Link to="/contact" activeClassName={style.active}>Contact</Link>
@@ -78,7 +78,7 @@ class Navs extends Component {
 								<Link to="/about-the-author" activeClassName={style.active}>About the Author</Link>
 							</li>
 							<li>
-								<Link to="/about-the-book" activeClassName={style.active}>About the Book</Link>
+								<Link to="/books" activeClassName={style.active}>Books</Link>
 							</li>
 							<li>
 								<Link to="/contact" activeClassName={style.active}>Contact</Link>

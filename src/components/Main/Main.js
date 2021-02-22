@@ -32,7 +32,7 @@ const Main = () => {
 									</p>
 
 									<div className={style.buttonLayouts}>
-										<Link to="/about-the-book">Read More</Link>
+										<Link to="/books">Read More</Link>
 									</div>
 								</section>
 							</div>
@@ -64,11 +64,11 @@ const Main = () => {
 										about the author<span className={style.taglineLinear}></span>
 									</p>
 									<h1 className={style.headingFrontline}>
-										Tommy L.<span className={style.spanTagLetters}>Davis</span>
+										Tommy Lee<span className={style.spanTagLetters}>Davis</span>
 									</h1>
 
 									<p className={style.subcontent}>
-									I was born in Welwyn Garden City City, in Hertfordshire, England. My mother was English and my father was American, who met in England, during WW2.  On October 1st 1949. Spent early years there, from 3 to 7, moved with parents and older brother to the USA, as my grandfather almost died.
+									I was born in Welwyn Garden City, in Hertfordshire, England. My mother was English and my father was American, who met in England during WW2. On October 1st 1949, spent early years there from 3 to 7, moved with parents and older brother to the USA, as my grandfather almost died.
 									</p>
 
 									<div className={style.buttonLayouts}>

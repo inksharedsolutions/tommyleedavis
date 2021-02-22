@@ -67,7 +67,7 @@ const Footer =(props) => {
 						<div className='col l6 m12 s12' id={style.info }>
 							<div className={style.leftFooternav}>
 								<h5>Get in Touch</h5>
-								<p>Tommy L. Davis loves to hear from readers. You can reach him via email. 
+								<p>Tommy Lee Davis loves to hear from readers. You can reach him via email. 
 									Feel free to send questions about writing, his works, interviews and other publicity matters.</p>
 							</div>
 

@@ -18,7 +18,7 @@ class aboutTheBook extends React.Component {
 		const slug = this.props.location.href;
 
 		const disqusConfig = {
-			shortname: 'tommy-l-davis',
+			shortname: 'tommy-lee-davis',
 			config: { identifier: 12, slug }
 		};
 
@@ -64,7 +64,7 @@ class aboutTheBook extends React.Component {
 
 								<div className="col l6 m12 s12">
 									<section className={style.contentBook}>
-										<h2 className={style.headingBookIntro}>ASIM'S EXTRAORDINARY JOURNEYS</h2>
+										<h2 className={style.headingBookIntro}>ASIM'S EXTRAORDINARY JOURNEY</h2>
 										<p className={style.subCatsParagph}>
 											Book 2: The Rogue Elephants of Ghant
 										</p>
@@ -95,10 +95,7 @@ class aboutTheBook extends React.Component {
 											Book 3: The Hunt for the Crystal Chalice of Myru
 										</p>
 										<p>
-											It was a magical time of wicked kings and monsters. This second book takes Asim and his brave warriors on an epic journey, as they cross the lands to help those less fortunate, those not able to help themselves. This time, they are on a journey to Ghant to help two tribes; plagued by robbers; who kill not only elephants to steal their ivory tusks; but the tribesmen guarding them too.
-										</p>
-										<p>
-											The author takes you on an extraordinary journey, where you will encounter strange people, places, wizards, witches, and dragons along the way. Go with Asim and his friends on this fun packed but perilous journey through the mountains, forests, and villages as they put their lives on the line to try and end this ever-growing plight.
+											In the magical times, of wicked kings and monsters. This third book, takes you on an epic journey spanning several mystical regions, Asim and his warriors are on an actions packet adventure, through immerse battles, as they put their lives in peril, from warlocks, and one eyed giants, plus more strange and dangerous creatures along the way. As they hunt for the magical, crystal chalice of Maru.
 										</p>
 									</section>
 
