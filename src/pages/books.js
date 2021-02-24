@@ -24,7 +24,7 @@ class aboutTheBook extends React.Component {
 
 		return (
 			<Aux>
-				<Helmet title="About the Book | Tommy Lee Davis"/>
+				<Helmet title="Books | Tommy Lee Davis"/>
 				<div className={style.flexWrapper}>
 					<Header currLocation={this.props.location} />
 					<main className={style.wrapperMain}>
@@ -99,7 +99,7 @@ class aboutTheBook extends React.Component {
 										</p>
 									</section>
 
-									<Book3Links />
+									{/* <Book3Links /> */}
 								</div>
 							</div>
 
