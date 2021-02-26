@@ -25,8 +25,14 @@ $secondary-font :'Playfair Display', serif !important;
 .headingBookIntro{
     font-family: $secondary-font;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 4rem;
     color: #3f6887;
+}
+
+@media (min-width: 360px){
+    .headingBookIntro{
+        font-size: 2.5rem;
+    }
 }
 
 .subCatsParagph{
@@ -97,7 +103,7 @@ $secondary-font :'Playfair Display', serif !important;
 
 .contentBook{
 
-    text-align: justify;
+    // text-align: justify;
     line-height: 2;
 
     p{

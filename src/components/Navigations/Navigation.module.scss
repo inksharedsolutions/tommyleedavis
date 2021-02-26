@@ -44,16 +44,15 @@
 	    }
 	}
 
-	#imageContainer{
-		text-align: center;
-		img{
-			width: 20%;
-			&:hover{
-				cursor: pointer;
-			}
+	
+}
+#imageContainer{
+	img{
+		width: 80px;
+		&:hover{
+			cursor: pointer;
 		}
 	}
-
 }
 
 .containerCustomizeFlex{
@@ -75,6 +74,7 @@
 	left: 100%;
 	-webkit-transition: all .5s;
     transition: all .5s;
+	opacity: 1;
 }
 				
 // #imageContainer{
@@ -106,7 +106,7 @@
 
 	
 	content: '';
-    background: #3a3a3a;
+    background: #494a4d;
     padding: 37px;
     height: 100%;
     position: fixed;
@@ -115,7 +115,6 @@
     display: block;
     z-index: 999;
     left: 0;
-
 
     ul{
     	margin-top: 99px;
@@ -126,7 +125,7 @@
     	text-align: center;
 	    font-size: 4vmin;
 	    list-style-type: none;
-	    margin-bottom: 22px;
+	    margin-bottom: 30px;
     }
     a{
     	color: #fff;

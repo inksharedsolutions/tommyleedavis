@@ -53,9 +53,9 @@ class aboutTheBook extends React.Component {
 
 									<BookLinks />
 								</div>
-							</div>
+							{/* </div>
 
-							<div className={row.join(' ')}>
+							<div className={row.join(' ')}> */}
 								<div className="col l6 m12 s12">
 									<div className={style.bookImgContainer}>
 										<img src={book2} />
@@ -64,7 +64,7 @@ class aboutTheBook extends React.Component {
 
 								<div className="col l6 m12 s12">
 									<section className={style.contentBook}>
-										<h2 className={style.headingBookIntro}>ASIM'S EXTRAORDINARY JOURNEY</h2>
+										<h2 className={style.headingBookIntro}>ASIM'S EXTRAORDINARY JOURNEYS</h2>
 										<p className={style.subCatsParagph}>
 											Book 2: The Rogue Elephants of Ghant
 										</p>
@@ -79,9 +79,9 @@ class aboutTheBook extends React.Component {
 
 									<Book2Links />
 								</div>
-							</div>
+							{/* </div>
 
-							<div className={row.join(' ')}>
+							<div className={row.join(' ')}> */}
 								<div className="col l6 m12 s12">
 									<div className={style.bookImgContainer}>
 										<img src={book3} />
