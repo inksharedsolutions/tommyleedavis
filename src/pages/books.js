@@ -95,7 +95,7 @@ class aboutTheBook extends React.Component {
 											Book 3: The Hunt for the Crystal Chalice of Myru
 										</p>
 										<p>
-											In the magical times, of wicked kings and monsters. This third book, takes you on an epic journey spanning several mystical regions, Asim and his warriors are on an actions packet adventure, through immerse battles, as they put their lives in peril, from warlocks, and one eyed giants, plus more strange and dangerous creatures along the way. As they hunt for the magical, crystal chalice of Maru.
+											In the magical times, of wicked kings and monsters. This third book, takes you on an epic journey spanning several mystical regions, Asim and his warriors are on an actions packet adventure, through immerse battles, as they put their lives in peril, from warlocks, and one eyed giants, plus more strange and dangerous creatures along the way. As they hunt for the magical, crystal chalice of Myru.
 										</p>
 									</section>
 
