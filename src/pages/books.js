@@ -99,7 +99,7 @@ class aboutTheBook extends React.Component {
 										</p>
 									</section>
 
-									{/* <Book3Links /> */}
+									<Book3Links />
 								</div>
 							</div>
 
