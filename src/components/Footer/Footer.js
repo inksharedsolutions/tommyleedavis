@@ -31,11 +31,11 @@ const Footer = (props) => {
 								>
 									<FontAwesomeIcon className="font-awesome" icon={faFacebook} />
 								</a>
-								<a href="https://twitter.com/strattonpress/" target="_blank" rel="noopener noreferrer">
+								<a href="https://twitter.com/tommyd49" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon className="font-awesome" icon={faTwitter} />
 								</a>
 								<a
-									href="https://www.instagram.com/strattonpress/"
+									href="https://www.instagram.com/authortomdavis/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
