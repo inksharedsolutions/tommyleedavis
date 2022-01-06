@@ -5,10 +5,12 @@ import Header from '../components/header';
 import BookLinks from '../components/Links/links';
 import Book2Links from '../components/Links/book2Links';
 import Book3Links from '../components/Links/book3Links';
+import Book4Links from '../components/Links/book4Links';
 import Footer from '../components/Footer/Footer';
 import mainBook from '../asset/Books/book1_front.png';
 import book2 from '../asset/Books/book2_front.png';
 import book3 from '../asset/Books/book3_front.png';
+import book4 from '../asset/Books/book4_front.png';
 import { DiscussionEmbed } from 'disqus-react';
 import {Helmet} from 'react-helmet';
 
@@ -100,6 +102,35 @@ class aboutTheBook extends React.Component {
 									</section>
 
 									<Book3Links />
+								</div>
+
+								<div className="col l6 m12 s12">
+									<div className={style.bookImgContainer}>
+										<img src={book4} />
+									</div>
+								</div>
+
+								<div className="col l6 m12 s12">
+									<section className={style.contentBook}>
+										<h2 className={style.headingBookIntro}>ASIM'S EXTRAORDINARY JOURNEYS</h2>
+										<p className={style.subCatsParagph}>
+											Book 4: Pardo the Frog King
+										</p>
+										<p>
+											It was a magical time of wicked kings and monsters. In this fourth book,
+											it finds Asim and his warriors, joining forces with Prince Kala of Skorn,
+											on his hunt for Pardo the Frog King, as he tries desperately to save
+											Princess Laalu, his younger sisters life. The head to the Old Lands,
+											where this epic journey takes them through swamps, hills, and high mountain,
+											encountering a vast number of obstacles, from warlocks, to elves, Mangwa's,
+											and the five headed Hurtyg, plus many many more, strange things, putting
+											their lives in peril, all along the way through the swamp filled lands,
+											to find, and battle, the frog people, in Pardo's fortified village. A
+											must read for fantasy lovers, to follow Asim and his warriors.
+										</p>
+									</section>
+
+									<Book4Links />
 								</div>
 							</div>
 

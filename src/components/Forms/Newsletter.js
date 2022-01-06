@@ -14,7 +14,7 @@ const Newsletter = (props) =>{
 							<form onSubmit={props.submit} >
 								  <div className="form-group">
 								    <div className="form-text text-muted" id="pbb-letter-cont-nw">Stay up to date with latest from me</div>
-									<div className="form-text text-muted">Asim's Extraordinary Journeys Book 3 is up. Subscribe for more updates.</div>
+									<div className="form-text text-muted">Asim's Extraordinary Journeys Book 4 is up. Subscribe for more updates.</div>
 								    <div className="input-group" id="pd-elementor-apex">
 
 								    	<span className={style.spanMess}> {state.value} </span>
